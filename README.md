@@ -5,6 +5,23 @@ Version 0.1.0
 McCaw et al Figure Replication
 
 
+## Project objective
+
+- What does this project do?
+In this code we intend on replicating the results of McCaw et al (2011). The study can be found here: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002026
+In a nutshell, the authors inoculated donor ferrets with two influenza strains, a mutant and a wild-type strain, and measured their relative proportions after transmission to recipient ferrets. The data consists of 9 data points that represent these two strains at different proportions in the donor and recipient ferrets. We replicate their proposed model to fit the data and reproduce the figures 1, 2 and 4A of the study. 
+
+- What do the functions do?
+The function model_curve is used to plot a curve given a certain value for s, a parameter in the authors model. The input should be always one number.
+The function model_mse is used to calculate the mean squared errors between a proposed curve and the data. The input should be a vector of length 9 to match the data structure.
+The R function optim is used to minimize the mean squared errors so we arrive at the best curve to fit the data, given these model assumptions.
+The remaining code is scripted elements to plot our replication of figures 1, 2 and 4A.
+
+- How does the user access your project?
+The code is self suficient and does not have any dependencies. The user just needs to run the code. 
+
+
+
 ## Project organization
 
 ```
