@@ -21,6 +21,9 @@ The remaining code is scripted elements to plot our replication of figures 1, 2 
 The code is self suficient and does not have any dependencies. The user just needs to run the code. 
 
 
+R version 3.5.1
+
+
 
 ## Project organization
 
