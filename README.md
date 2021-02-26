@@ -2,6 +2,8 @@
 
 Version 0.1.0
 
+[![DOI](https://zenodo.org/badge/342190261.svg)](https://zenodo.org/badge/latestdoi/342190261)
+
 McCaw et al Figure Replication
 
 
